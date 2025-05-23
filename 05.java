@@ -5,10 +5,6 @@ class Student {
 	private int exam3;
 	double avg;
 
-	Student(){
-		
-	}
-	
 	boolean validateMarks(int marks) {   
 		if (marks<= 100 && marks>=0){
 			return true;
