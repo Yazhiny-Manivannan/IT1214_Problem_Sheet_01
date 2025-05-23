@@ -23,13 +23,13 @@ class Ticket {
 }
 
 class BookingSystem {
-    private Ticket[] tickets;
+    private Ticket[] tickets;       // Array to store booked tickets
     private boolean[] seatsBooked; // Track which seats are booked
-    private int count;
+    private int count;        // Number of tickets booked
 
     BookingSystem() {
         tickets = new Ticket[10];      
-        seatsBooked = new boolean[10]; // Track seat status (0 to 9)
+        seatsBooked = new boolean[10];
         count = 0;
     }
 
